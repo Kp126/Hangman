@@ -18,8 +18,9 @@ print(logo)
 display = []
 for _ in range(word_length):
     display += "_"
-end_of_game = False
 
+
+end_of_game = False
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
